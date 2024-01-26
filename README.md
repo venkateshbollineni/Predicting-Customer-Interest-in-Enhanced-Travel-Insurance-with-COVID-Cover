@@ -8,10 +8,11 @@ is provided from its previous customers and the goal is to build a model that ca
 the customer will be interested to buy the travel insurance package. Finally tested on the unseen customer data to see 
 how your model performs, found that Gradient Boosting model given the best performance of Test error rate 16.9%, Accuracy 83.1% and Recall 90.8% by applying the cross validation & shrinkage. Also this model out performed Random Forest, Support Vector Machine, Logistic Regression and Linear Discrimitant Analysis models.
 
-A: Target Variable/Label
+Target Variable/Label
+
 TravelInsurance - Did the customer buy travel insurance package.
 
-B: Predictor Variables/Features
+Predictor Variables/Features
 
 Age - Age of the customer
 
