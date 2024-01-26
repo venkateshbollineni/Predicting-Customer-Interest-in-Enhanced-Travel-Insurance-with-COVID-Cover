@@ -1,14 +1,16 @@
 Predicting Customer Interest in Enhanced Travel Insurance with COVID cover
+
 A tour & travels company is offering travel insurance package to their customers. The new insurance 
 package also includes covid cover. The company wants to know which customers would be interested to 
 buy it based on their database history. The insurance was offered to some of the customers in 2019 and 
 the given data has been extracted from the performance/sales of the package during that period. The data 
-is provided for almost 2000 of its previous customers and the goal is to build a model that can predict if 
-the customer will be interested to buy the travel insurance package. I’ve withheld 100 observations to see 
-how your model performs. You will submit your final prediction on these 100 observations in the 
-provided csv file (TravelInsuranceTest.csv) along with your project paper.
+is provided from its previous customers and the goal is to build a model that can predict if 
+the customer will be interested to buy the travel insurance package. Finally tested on the unseen customer data to see 
+how your model performs, found that Gradient Boosting model given the best performance of Test error rate 16.9%, Accuracy 83.1% and Recall 90.8% by applying the cross validation & shrinkage. Also this model out performed Random Forest, Support Vector Machine, Logistic Regression and Linear Discrimitant Analysis models.
+
 A: Target Variable/Label
 TravelInsurance - Did the customer buy travel insurance package.
+
 B: Predictor Variables/Features
 Age - Age of the customer
 Employment Type - The sector in which customer is employed
