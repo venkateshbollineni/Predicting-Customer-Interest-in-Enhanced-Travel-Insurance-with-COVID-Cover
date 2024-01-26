@@ -12,6 +12,7 @@ A: Target Variable/Label
 TravelInsurance - Did the customer buy travel insurance package.
 
 B: Predictor Variables/Features
+
 Age - Age of the customer
 Employment Type - The sector in which customer is employed
 GraduateOrNot - Whether the customer is college graduate or not
