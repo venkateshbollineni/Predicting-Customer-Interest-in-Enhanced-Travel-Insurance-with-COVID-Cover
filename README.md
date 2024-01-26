@@ -14,11 +14,19 @@ TravelInsurance - Did the customer buy travel insurance package.
 B: Predictor Variables/Features
 
 Age - Age of the customer
+
 Employment Type - The sector in which customer is employed
+
 GraduateOrNot - Whether the customer is college graduate or not
+
 AnnualIncome - The yearly income of the customer 
+
 FamilyMembers - Number of members in customer's family
+
 ChronicDiseases - Whether the customer suffers from any major disease 
+
 FrequentFlyer - Derived data based on customer's history of booking air tickets on at least 4 
+
 different instances in the last 2 years
+
 EverTravelledAbroad - Has the customer ever travelled to a foreign country.
