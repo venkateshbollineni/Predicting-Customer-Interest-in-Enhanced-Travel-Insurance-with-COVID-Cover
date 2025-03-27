@@ -1,33 +1,24 @@
-Predicting Customer Interest in Enhanced Travel Insurance with COVID cover
+✔️ Customer Interest Prediction in Travel Insurance: Developed a predictive model using Gradient Boosting to identify potential buyers for a new travel insurance package, including COVID coverage. 🛫📊
 
-A tour & travels company is offering travel insurance package to their customers. The new insurance 
-package also includes covid cover. The company wants to know which customers would be interested to 
-buy it based on their database history. The insurance was offered to some of the customers in 2019 and 
-the given data has been extracted from the performance/sales of the package during that period. The data 
-is provided from its previous customers and the goal is to build a model that can predict if 
-the customer will be interested to buy the travel insurance package. Finally tested on the unseen customer data to see 
-how your model performs, found that Gradient Boosting model given the best performance of Test error rate 16.9%, Accuracy 83.1% and Recall 90.8% by applying the cross validation & shrinkage. Also this model out performed Random Forest, Support Vector Machine, Logistic Regression and Linear Discrimitant Analysis models.
+Key Steps & Techniques:
+✔️ Data Cleaning & Exploration: Addressed missing values, removed irrelevant features, and performed ANOVA tests to identify key predictors such as Age, Annual Income, Frequent Flyer status, and Travel History. 🛠️🔍
 
-Target Variable/Label
+✔️ Class Imbalance Handling: Adjusted thresholding techniques to address dataset imbalance (63% opted out, 37% opted in), ensuring better model performance. ⚖️📉
 
-TravelInsurance - Did the customer buy travel insurance package.
+✔️ Feature Selection: Identified "Age," "Annual Income," and "Ever Travelled Abroad" as the most significant features contributing to the model’s predictive power. 🎯📊
 
-Predictor Variables/Features
+Model Training & Evaluation:
+✔️ Model Comparison: Evaluated five machine learning models—Random Forest, Gradient Boosting, Support Vector Machines, Logistic Regression, and Linear Discriminant Analysis. 📊🔍
 
-Age - Age of the customer
+✔️ Best Model - Gradient Boosting: Achieved 83.1% accuracy, 16.9% test error rate, and 90.8% recall, outperforming other models. 🏆📈
 
-Employment Type - The sector in which customer is employed
+✔️ Cross-Validation & Regularization: Tuned hyperparameters (shrinkage, interaction depth) to enhance performance. 🔄⚙️
 
-GraduateOrNot - Whether the customer is college graduate or not
+✔️ Predictive Insights: The model was applied to 100 unseen data points, correctly identifying 81 as "No" and 19 as "Yes" for purchasing travel insurance. 🔮📊
 
-AnnualIncome - The yearly income of the customer 
+Business Impact:
+✔️ Actionable Insights: Helped optimize marketing strategies by identifying key factors influencing customer interest. 🎯📢
 
-FamilyMembers - Number of members in customer's family
+✔️ Deployment Considerations: Emphasized balancing false positives (unnecessary purchases) and false negatives (missed customers) before model deployment. ⚠️🔍
 
-ChronicDiseases - Whether the customer suffers from any major disease 
-
-FrequentFlyer - Derived data based on customer's history of booking air tickets on at least 4 
-
-different instances in the last 2 years
-
-EverTravelledAbroad - Has the customer ever travelled to a foreign country.
+This project showcased the power of predictive modelling in driving business decisions, refining customer targeting, and enhancing travel insurance adoption strategies. 🚀📈
